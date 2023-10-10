@@ -1,4 +1,4 @@
-body{
+.body{
     min-height: 100vh;
     margin: 0;
     background-image: url('./jascript.png');
@@ -11,7 +11,7 @@ body{
     justify-content: center;
 }
 
-main{
+.card{
     max-width: 512px;
     padding: 16px;
     margin: 16px;
@@ -23,21 +23,21 @@ main{
     gap: 12px;
 }
 
-img{
+.img{
     display: block;
     border-radius: 60%;
 }
 
-h1, h2, p{
+.card_title, .card_subtitle, .card_text{
     margin: 0;
     text-align: center;
 }
 
-h2{
+.card_subtitle{
     font-size: 18px;
 }
 
-ul{
+.list{
     margin: 0;
     padding: 0;
     display: flex;
@@ -45,7 +45,7 @@ ul{
     list-style: none;
 }
 
-a{
+.link{
     color: white;
     font-size: 24px;
 }
